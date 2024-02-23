@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Brew Scale</title>
+</head>
+<body>
+
+<form id="coffeeForm">
+    <label for="waterWeight">Water Weight (g):</label>
+    <input type="number" id="waterWeight" name="waterWeight" required>
+    <br>
+    <label for="ratio">Coffee-to-Water Ratio:</label>
+    <input type="number" id="ratio" name="ratio" required>
+    <br>
+    <button type="button" onclick="calculateCoffee()">Calculate</button>
+</form>
+
+<div id="result"></div>
+
+
+</body>
+<script src="main.js"></script>
+</html>
